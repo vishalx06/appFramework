@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		6726D5D02BDEA0B200BE707C /* AppleFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726D5CF2BDEA0B200BE707C /* AppleFrameworkApp.swift */; };
-		6726D5D22BDEA0B200BE707C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726D5D12BDEA0B200BE707C /* ContentView.swift */; };
+		6726D5D22BDEA0B200BE707C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726D5D12BDEA0B200BE707C /* FrameworkGridView.swift */; };
 		6726D5D42BDEA0B300BE707C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6726D5D32BDEA0B300BE707C /* Assets.xcassets */; };
 		6726D5D72BDEA0B300BE707C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6726D5D62BDEA0B300BE707C /* Preview Assets.xcassets */; };
+		6726D5DE2BDEA0FC00BE707C /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726D5DD2BDEA0FB00BE707C /* Framework.swift */; };
+		6726D5E22BDEC5A300BE707C /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726D5E12BDEC5A300BE707C /* FrameworkDetailView.swift */; };
+		679CC1362BDECE060079B81B /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679CC1352BDECE060079B81B /* FrameworkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6726D5CC2BDEA0B200BE707C /* AppleFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6726D5CF2BDEA0B200BE707C /* AppleFrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkApp.swift; sourceTree = "<group>"; };
-		6726D5D12BDEA0B200BE707C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6726D5D12BDEA0B200BE707C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		6726D5D32BDEA0B300BE707C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6726D5D62BDEA0B300BE707C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6726D5DD2BDEA0FB00BE707C /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		6726D5E12BDEC5A300BE707C /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		679CC1352BDECE060079B81B /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				6726D5CF2BDEA0B200BE707C /* AppleFrameworkApp.swift */,
-				6726D5D12BDEA0B200BE707C /* ContentView.swift */,
+				6726D5DD2BDEA0FB00BE707C /* Framework.swift */,
+				6726D5D12BDEA0B200BE707C /* FrameworkGridView.swift */,
+				6726D5E12BDEC5A300BE707C /* FrameworkDetailView.swift */,
+				679CC1352BDECE060079B81B /* FrameworkGridViewModel.swift */,
 				6726D5D32BDEA0B300BE707C /* Assets.xcassets */,
 				6726D5D52BDEA0B300BE707C /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6726D5D22BDEA0B200BE707C /* ContentView.swift in Sources */,
+				6726D5E22BDEC5A300BE707C /* FrameworkDetailView.swift in Sources */,
+				6726D5D22BDEA0B200BE707C /* FrameworkGridView.swift in Sources */,
+				6726D5DE2BDEA0FC00BE707C /* Framework.swift in Sources */,
 				6726D5D02BDEA0B200BE707C /* AppleFrameworkApp.swift in Sources */,
+				679CC1362BDECE060079B81B /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
